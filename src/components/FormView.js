@@ -3,14 +3,14 @@ import Logoimg from "../images/Logo.png";
 
 function FormView() {
   return (
-    <div className="form-body">
+    <div >
       <img src={Logoimg} alt="Logo" className="logo" />
 
       <div className="form-container">
         <div className="form-group">
           <label for="username"></label>
           <input type="text" className="username" placeholder="Username" />
-          <br></br>
+          
         </div>
 
         <div className="form-group">
